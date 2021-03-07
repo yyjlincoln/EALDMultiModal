@@ -1,21 +1,36 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import AppFrame from "../views/AppFrame.vue"
-
+import main from '../views/main.vue'
+import page_unavailable from "../views/general/page_unavailable.vue"
 Vue.use(VueRouter)
 
 const routes = [
   {
-    path: '/AppFrame',
-    name: 'AppFrame',
-    component: AppFrame
+    path: '/',
+    component: main,
+    meta: { title: "Nowaskme" }
+  },
+  {
+    path: '*',
+    component: page_unavailable,
+    meta: { title: "Error" }
   }
 ]
 
 const router = new VueRouter({
   mode: 'history',
   base: process.env.BASE_URL,
-  routes
+  routes,
+  scrollBehavior() {
+    return { x: 0, y: 0 }
+  }
+})
+
+router.afterEach((to) => {
+  // Wait for the next DOM update cycle
+  Vue.nextTick(() => {
+    document.title = to.meta.title ? to.meta.title + " - EALD Multimodal" : "Content - EALD Multimodal"
+  })
 })
 
 export default router
