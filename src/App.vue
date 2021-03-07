@@ -7,13 +7,12 @@
 </template>
 
 <style>
-.slide-left-leave-active,
-.slide-right-leave-active {
+
+.slide-left-leave-active{
   display: none;
 }
 
-.slide-left-enter-active,
-.slide-right-enter-active {
+.slide-left-enter-active{
   /* position: absolute; */
   transition-duration: 0.5s;
   transition-property: height, opacity, transform;
@@ -27,11 +26,26 @@
   transform: translate(2em, 0);
 }
 
-/* .slide-left-leave-active, */
-.slide-right-enter {
-  opacity: 0;
-  transform: translate(-2em, 0);
+.slide-up-leave-active{
+  /* display: none; */
+  transform: translateY(-150px);
 }
+
+.slide-up-enter-active{
+  /* position: absolute; */
+  transition-duration: 0.5s;
+  transition-property: height, opacity, transform;
+  transition-timing-function: cubic-bezier(0.55, 0, 0.1, 1);
+  overflow: hidden;
+}
+
+/* .slide-right-leave-active, */
+.slide-up-enter {
+  opacity: 0;
+  transform: translateY(150px);
+}
+
+
 .fade-enter-active,
 .fade-leave-active {
   transition-duration: 0.3s;

@@ -86,9 +86,25 @@
       <eald-contentblock title="Ambiguity.">
         <div class="flex flex-row justify-between w-full relative">
           <div class="pr-10">
-            <p>It's hard to describe identity.</p>
+            <p>It's hard to define identity.</p>
             <p class="mt-3">
-              Identity is multi-layered, complicated, multifaceted and correlated. It does not have a definite shape,
+              Identity is multi-layered, complicated, multifaceted and
+              correlated. It does not have a definite shape, and it constantly
+              evolves as its environment changes.
+            </p>
+            <p class="mt-3 italic">
+              Just like water, identity is formless and shapless. "If you put
+              water in a cup, it becomes the cup; It you put it in a bottle, it
+              becomes the bottle"
+            </p>
+            <p class="mt-6">
+              <a
+                class="underline"
+                role="button"
+                @click="$router.push('/explore')"
+                >Join our journey now</a
+              >
+              to explore the ambiguity nature of identity.
             </p>
           </div>
           <div class="flex flex-col justify-center h-full flex-shrink-0">
@@ -100,12 +116,9 @@
           </div>
         </div>
       </eald-contentblock>
-      <eald-contentblock
-        title="Formless, shapeless, like water."
-      >
+      <eald-contentblock title="Fragility.">
         <p>Does water have a definite shape?</p>
-        <p class="mt-3">Not really. At least Stan Lee doesn't think so.</p>
-        <p class="mt-6">""</p>
+        <p class="mt-3">Not really. At least Bruce Lee doesn't think so.</p>
       </eald-contentblock>
       <eald-contentblock title="There is no clear boundary.">
         <p>Identity is super complicated.</p>

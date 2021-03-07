@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import main from '../views/main.vue'
 import page_unavailable from "../views/general/page_unavailable.vue"
+import explore from "../views/explore.vue"
 Vue.use(VueRouter)
 
 const routes = [
@@ -9,6 +10,13 @@ const routes = [
     path: '/',
     component: main,
     meta: { title: "Nowaskme" }
+  },
+  {
+    path: '/explore',
+    component: explore,
+    meta: {
+      title: "Explore"
+    }
   },
   {
     path: '*',

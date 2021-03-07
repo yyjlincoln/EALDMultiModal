@@ -2,7 +2,7 @@
   <div>
     <div class="py-7 px-7 lg:pt-20 lg:px-20 rounded-md">
       <span
-        class="relative text-4xl md:text-5xl lg:text-6xl block text-gray-700 font-extrabold text-gradient"
+        class="relative text-4xl md:text-5xl lg:text-6xl block text-gray-700 font-extrabold text-gradient py-1"
         id="tip-main"
         >{{ title }}</span
       >

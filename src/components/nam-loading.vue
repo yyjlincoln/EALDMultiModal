@@ -9,7 +9,7 @@
       <div class="animate-pulse">
         <div class="flex flex-col">
           <nam-text
-            title="Nowask.me"
+            title="Loading content"
             title_config="text-4xl md:text-5xl lg:text-6xl text-center"
             v-if="show_logo"
           ></nam-text>
@@ -30,7 +30,7 @@
       <div class="animate-pulse">
         <div class="flex flex-col">
           <nam-text
-            title="Nowask.me"
+            title="Loading"
             title_config="text-4xl md:text-5xl lg:text-6xl text-center"
             v-if="show_logo"
           ></nam-text>
