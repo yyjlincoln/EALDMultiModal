@@ -3,19 +3,27 @@ import VueRouter from 'vue-router'
 import main from '../views/Main.vue'
 import page_unavailable from "../views/general/page_unavailable.vue"
 import explore from "../views/explore.vue"
+import interview from "../views/interview.vue"
 Vue.use(VueRouter)
 
 const routes = [
   {
     path: '/',
     component: main,
-    meta: { title: "Nowaskme" }
+    meta: { title: "What's your identity?" }
   },
   {
     path: '/explore',
     component: explore,
     meta: {
       title: "Explore"
+    }
+  },
+  {
+    path:'/interview',
+    component: interview,
+    meta: {
+      title: "Our Interview"
     }
   },
   {

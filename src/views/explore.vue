@@ -1,9 +1,7 @@
 <template>
   <div>
-    <nam-page :global_centered="true">
-      <transition name="fade">
-        <div>{{ content }}</div>
-      </transition>
+    <nam-page :global_centered="false">
+      <nam-text title="Test"></nam-text>
     </nam-page>
     <nam-footer></nam-footer>
   </div>
@@ -12,15 +10,14 @@
 <script>
 import NamFooter from "../components/nam-footer.vue";
 import namPage from "../components/nam-page.vue";
+import namText from "../components/nam-text.vue";
 export default {
-  components: { namPage, NamFooter },
+  components: { namPage, NamFooter, namText },
   data: () => ({
-    content: "w",
+
   }),
   mounted(){
-      setInterval(() => {
-          this.content=this.content+"w"
-      }, 1000);
+   
   }
 };
 </script>

@@ -84,8 +84,8 @@
     </div>
     <div id="content" class="h-fit">
       <eald-contentblock title="Ambiguity.">
-        <div class="flex flex-row justify-between w-full relative">
-          <div class="pr-10">
+        <div class="flex flex-col md:flex-row md:justify-between w-full relative">
+          <div class="mb-10 md:mb-0 md:pr-10 relative md:w-1/2">
             <p>It's hard to define identity.</p>
             <p class="mt-3">
               Identity is multi-layered, complicated, multifaceted and
@@ -107,9 +107,9 @@
               to explore the ambiguity nature of identity.
             </p>
           </div>
-          <div class="flex flex-col justify-center h-full flex-shrink-0">
+          <div class="flex flex-row justify-center h-full relative md:w-1/2 max-w-lg">
             <img
-              class="rounded-md"
+              class="rounded-md min-w-lg"
               src="@/assets/fragmented.jpg"
               alt="Image from David, livingmeanings.com"
             />
