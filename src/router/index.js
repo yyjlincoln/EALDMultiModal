@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import main from '../views/main.vue'
+import main from '../views/Main.vue'
 import page_unavailable from "../views/general/page_unavailable.vue"
 import explore from "../views/explore.vue"
 Vue.use(VueRouter)
