@@ -109,7 +109,7 @@
           </div>
           <div class="flex flex-col justify-center h-full flex-shrink-0">
             <img
-              class="rounded-md"
+              class="rounded-md object-contain"
               src="@/assets/fragmented.jpg"
               alt="Image from David, livingmeanings.com"
             />
