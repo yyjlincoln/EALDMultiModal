@@ -109,7 +109,7 @@
           </div>
           <div class="flex flex-row justify-center h-full relative md:w-1/2 max-w-lg">
             <img
-              class="rounded-md min-w-lg"
+              class="rounded-md object-contain"
               src="@/assets/fragmented.jpg"
               alt="Image from David, livingmeanings.com"
             />
