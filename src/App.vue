@@ -57,6 +57,7 @@
 .fade-leave-active {
   opacity: 0;
 }
+
 </style>
 
 <style>
@@ -80,6 +81,7 @@
 </style>
 
 <script>
+import 'boxicons';
 import "tailwindcss/dist/tailwind.css";
 export default {
   name: "App",
