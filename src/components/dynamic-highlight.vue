@@ -42,7 +42,7 @@ export default {
   --header-font-size: min(max(2rem, 8vw), 4rem);
   --space: 2rem;
   --padding: 8vmin;
-  --duration: 2s;
+  --duration: 2.5s;
   --ease: cubic-bezier(0.25, 1, 0.5, 1);
 }
 
