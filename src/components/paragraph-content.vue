@@ -1,7 +1,7 @@
 <template>
   <div
     id="pcontent"
-    class="flex flex-col md:border-l-8 px-3"
+    class="flex flex-col md:border-l-8 px-3 md:px-8"
     :style="'z-index: ' + z"
   >
     <slot></slot>

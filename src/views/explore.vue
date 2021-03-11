@@ -34,14 +34,43 @@
             Many people with dual identity has this feeling. Probably you do as
             well. We always naively feel like we can handle both identities at
             the same time, yet without knowing, our identity shifts as our
-            surronding environment changes,
+            surronding environment changes.
             <dynamic-highlight
-              >just like the beach at Bondi Junction -- no matter how robust you
-              structure is, it can never conquer the nature, and it is gradually
-              eroded over time.</dynamic-highlight
+              >Just like the Australian coastlines -- no matter how robust you
+              structure is, it can never conquer the nature, and eventually
+              erodes over time.</dynamic-highlight
             >
           </p>
-          <img class="rounded-md my-5 object-fit" src="https://images.unsplash.com/photo-1563003150-c142eb86a66e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2251&q=80"/>
+          <img
+            class="rounded-md my-5 object-fit"
+            src="https://images.unsplash.com/photo-1563003150-c142eb86a66e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2251&q=80"
+          />
+          <p>
+            We feel like we are gradually being disconnected from the original
+            culture and our motherland shifts to become "otherlands".
+            <quotes>
+              <span>"although there is han jian in chinese</span>
+              <span>there isn't ao jian in english</span>
+              <span>i write in chinese</span>
+              <span>like australians do in english</span>
+              <span>our motherlands have one thing in common,</span>
+              <span
+                ><dynamic-highlight>they've both lost M</dynamic-highlight
+                >"</span
+              >
+            </quotes>
+            Nobody wants to be disconnected from their original culture, neither
+            does Ouyang.
+            <dynamic-highlight
+              >He urges to connect back to his original culture, to create a
+              "connected disconnection" with both of his
+              identities.</dynamic-highlight
+            >
+            This is achieved through his use of wordplay, "lost a M", which
+            "Motherland" becomes "otherland", highlighting his disconnections
+            with both cultures while resonating with the "I possess neither",
+            depicting his eager to identify with both cultures.
+          </p>
         </pcontent>
       </paragraph-content>
     </nam-page>

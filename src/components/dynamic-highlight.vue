@@ -17,7 +17,7 @@ export default {
     gsap.utils.toArray(".text-highlight").forEach((highlight) => {
       ScrollTrigger.create({
         trigger: highlight,
-        start: "-100px center",
+        start: "-150px center",
         onEnter: () => highlight.classList.add("active"),
       });
     });
@@ -25,12 +25,7 @@ export default {
   },
 };
 </script>
-ScrollTrigger.create({
-  trigger: "#orange",
-  start: "top top", 
-  end: "bottom 150px",
-  pin: "#orange-content"
-});
+
 <style>
 
 @import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap");
