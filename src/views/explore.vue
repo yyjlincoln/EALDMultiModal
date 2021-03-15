@@ -31,12 +31,12 @@
             <span>-- The Double Man</span>
           </quotes>
           <p>
-            Many people with dual identity has this feeling. Probably you do as
+            Many people with dual identity have this feeling. Probably you do as
             well. We always naively feel like we can handle both identities at
             the same time, yet without knowing, our identity shifts as our
             surronding environment changes.
             <dynamic-highlight
-              >Just like the Australian coastlines -- no matter how robust you
+              >Just like the Australian coastlines -- no matter how robust your
               structure is, it can never conquer the nature, and eventually
               erodes over time.</dynamic-highlight
             >
@@ -70,6 +70,13 @@
             "Motherland" becomes "otherland", highlighting his disconnections
             with both cultures while resonating with the "I possess neither",
             depicting his eager to identify with both cultures.
+          </p>
+          <p>
+            This <dynamic-highlight>ambiguity of identity</dynamic-highlight> is
+            not only experienced by Yu; It's also evident in
+            <span class="italic">Some New Perspectives</span> by Ee Tiang Hong.
+            As an English-Malaysian born during the British colonial period, he
+            was used to communicate in English rather than Malay.
           </p>
         </pcontent>
       </paragraph-content>

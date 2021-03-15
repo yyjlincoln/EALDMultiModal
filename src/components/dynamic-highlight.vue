@@ -17,17 +17,19 @@ export default {
     gsap.utils.toArray(".text-highlight").forEach((highlight) => {
       ScrollTrigger.create({
         trigger: highlight,
-        start: "-150px center",
-        onEnter: () => highlight.classList.add("active"),
+        start: "-100px center",
+        onEnter: () => {
+          setTimeout(() => {
+            highlight.classList.add("active");
+          }, 100);
+        },
       });
     });
-
   },
 };
 </script>
 
 <style>
-
 @import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap");
 
 :root {
