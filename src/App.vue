@@ -1,18 +1,20 @@
 <template>
   <div id="app" class="h-fit w-fit overflow-hidden">
-    <transition :name="transition_name" mode="out-in">
-      <router-view />
-    </transition>
+    <div class="min-h-screen">
+      <transition :name="transition_name" mode="out-in">
+        <router-view />
+      </transition>
+    </div>
+    <nam-footer></nam-footer>
   </div>
 </template>
 
 <style>
-
-.slide-left-leave-active{
+.slide-left-leave-active {
   display: none;
 }
 
-.slide-left-enter-active{
+.slide-left-enter-active {
   /* position: absolute; */
   transition-duration: 0.5s;
   transition-property: height, opacity, transform;
@@ -26,12 +28,12 @@
   transform: translate(2em, 0);
 }
 
-.slide-up-leave-active{
+.slide-up-leave-active {
   /* display: none; */
   transform: translateY(-150px);
 }
 
-.slide-up-enter-active{
+.slide-up-enter-active {
   /* position: absolute; */
   transition-duration: 0.5s;
   transition-property: height, opacity, transform;
@@ -45,7 +47,6 @@
   transform: translateY(150px);
 }
 
-
 .fade-enter-active,
 .fade-leave-active {
   transition-duration: 0.3s;
@@ -57,7 +58,6 @@
 .fade-leave-active {
   opacity: 0;
 }
-
 </style>
 
 <style>
@@ -81,16 +81,19 @@
 </style>
 
 <script>
-import 'boxicons';
+import "boxicons";
 import "tailwindcss/dist/tailwind.css";
+import namFooter from "./components/nam-footer.vue";
 export default {
   name: "App",
-  components: {},
   data: () => ({
     transition_name: "slide-left",
     // transition_name: "fade",
     lastPath: "/",
   }),
+  components: {
+    namFooter,
+  },
   watch: {
     // $route: function (before, after) {
     // },

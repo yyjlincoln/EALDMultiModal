@@ -13,7 +13,7 @@
       </div>
     </div>
     <div
-      class="h-fit overflow-hidden w-fit flex min-h-screen flex-col py-10 pt-15"
+      class="h-fit overflow-hidden w-fit flex min-h-screen flex-col py-10 pt-20"
       :class="
         String(unbounded ? '' : 'max-w-6xl') +
         ' ' +

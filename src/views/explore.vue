@@ -77,7 +77,7 @@
             in this article.
           </p>
 
-          <subtitle> Identity: A puzzle </subtitle>
+          <subtitle> Identity: It's a puzzle </subtitle>
           <div class="rounded-md my-8">
             <img
               src="https://images.unsplash.com/photo-1549616014-08d94f85e697?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1936&q=80"
@@ -138,7 +138,6 @@
       </span>
       <nam-text :title="animatedText" id="identitytitle"> </nam-text>
     </nam-page>
-    <nam-footer></nam-footer>
   </div>
 </template>
 
@@ -146,7 +145,6 @@
 <script>
 import pcontent from "../components/pcontent.vue";
 import DynamicHighlight from "../components/dynamic-highlight.vue";
-import NamFooter from "../components/nam-footer.vue";
 import namPage from "../components/nam-page.vue";
 import namText from "../components/nam-text.vue";
 import ParagraphContent from "../components/paragraph-content.vue";
@@ -158,7 +156,6 @@ import Quotes from "../components/quotes.vue";
 export default {
   components: {
     namPage,
-    NamFooter,
     namText,
     DynamicHighlight,
     ParagraphContent,

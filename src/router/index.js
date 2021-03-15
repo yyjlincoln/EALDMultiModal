@@ -4,27 +4,48 @@ import main from '../views/Main.vue'
 import page_unavailable from "../views/general/page_unavailable.vue"
 import explore from "../views/explore.vue"
 import interview from "../views/interview.vue"
-Vue.use(VueRouter)
+import appframe from "../views/appframe.vue"
+import about from "../views/about.vue"
 
+Vue.use(VueRouter)
 const routes = [
+  {
+    path: '/explore',
+    component: explore,
+    meta: {
+      title: "Explore",
+      nav: 2
+    }
+  },
+  {
+    path: '/interview',
+    component: interview,
+    meta: {
+      title: "Our Interview",
+      nav: 3
+    }
+  },
+  {
+    path: '/about',
+    component: about,
+    meta: {
+      title: "About us",
+      nav: 4
+    }
+  }
+]
+
+
+const meta = [
   {
     path: '/',
     component: main,
     meta: { title: "What's your identity?" }
   },
   {
-    path: '/explore',
-    component: explore,
-    meta: {
-      title: "Explore"
-    }
-  },
-  {
-    path:'/interview',
-    component: interview,
-    meta: {
-      title: "Our Interview"
-    }
+    path: '/appframe',
+    component: appframe,
+    children: routes
   },
   {
     path: '*',
@@ -36,7 +57,7 @@ const routes = [
 const router = new VueRouter({
   mode: 'history',
   base: process.env.BASE_URL,
-  routes,
+  routes: meta,
   scrollBehavior() {
     return { x: 0, y: 0 }
   }

@@ -161,7 +161,6 @@
         </div>
       </div>
     </div>
-    <nam-footer></nam-footer>
   </div>
 </template>
 <style>
@@ -170,7 +169,6 @@
 
 <script>
 import EaldContentblock from "../components/eald-contentblock.vue";
-import NamFooter from "../components/nam-footer.vue";
 export default {
   data: () => ({
     getstarted: false,
@@ -186,7 +184,6 @@ export default {
     },
   },
   components: {
-    NamFooter,
     EaldContentblock,
   },
 };

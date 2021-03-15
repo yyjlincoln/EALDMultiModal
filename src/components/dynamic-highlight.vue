@@ -17,7 +17,7 @@ export default {
     gsap.utils.toArray(".text-highlight").forEach((highlight) => {
       ScrollTrigger.create({
         trigger: highlight,
-        start: "-100px center",
+        start: "-150px center",
         onEnter: () => {
           setTimeout(() => {
             highlight.classList.add("active");
