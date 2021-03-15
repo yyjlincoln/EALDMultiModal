@@ -12,7 +12,7 @@
             />
           </div>
           <div class="h-full flex flex-col justify-center">
-            <div class="mx-3 flex flex-row">
+            <div class="mx-3 flex hidden sm:block">
               <router-link
                 to="/"
                 class="px-3 border-r"
