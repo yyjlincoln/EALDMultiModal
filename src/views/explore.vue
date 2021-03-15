@@ -15,36 +15,78 @@
 
         <subtitle>
           <span>
-            The <dynamic-highlight>Connected Disconnections</dynamic-highlight>,
-          </span>
-          <span>
-            And the
-            <dynamic-highlight>Disconnected Connections</dynamic-highlight>.
+            Wait --
+            <dynamic-highlight
+              >What's identity in the first place?</dynamic-highlight
+            >
           </span>
         </subtitle>
 
         <pcontent>
-          <quotes>
-            <span>"i possess two countries, </span>
-            <span>or else</span>
-            <span>i possess neither"</span>
-            <span>-- The Double Man</span>
-          </quotes>
-          <p>
-            Many people with dual identity have this feeling. Probably you do as
-            well. We always naively feel like we can handle both identities at
-            the same time, yet without knowing, our identity shifts as our
-            surronding environment changes.
-            <dynamic-highlight
-              >Just like the Australian coastlines -- no matter how robust your
-              structure is, it can never conquer the nature, and eventually
-              erodes over time.</dynamic-highlight
-            >
+          <p class="italic">
+            How do you define identity? Can you categorize it? What is the shape
+            of identity? When you move to another culture, are you still
+            connected with your original culture? Is there a clear boundary
+            between the two cultures?
           </p>
-          <img
-            class="rounded-md my-5 object-fit"
-            src="https://images.unsplash.com/photo-1563003150-c142eb86a66e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2251&q=80"
-          />
+          <p>
+            Not many people can clearly answer those questions. There are a
+            thousand Hamlets in a thousand people's eyes, and it’s the same
+            situation for identity - different people have their own
+            perspectives on identity.
+            <dynamic-highlight
+              >It does not have an intrinsic shape!</dynamic-highlight
+            >
+            Identity is more like water -
+            <quotes
+              >“shapeless, formless, if you put it into a cup, it becomes the
+              cup; If you put it in a bottle, it becomes the bottle”, says Bruce
+              Lee</quotes
+            >
+            <dynamic-highlight
+              >It adapts with the environment and it blends with one’s
+              experience</dynamic-highlight
+            >
+            -- It’s not that simple.
+          </p>
+          <p>
+            So why do we even care about identity? Why should we bother? Well,
+            knowing one’s identity can greatly help us understand that person,
+            therefore help
+            <dynamic-highlight>
+              establish a connection with that person</dynamic-highlight
+            >. This allows us to understand their human experiences,
+            <dynamic-highlight
+              >to take a sneak peek into their lives</dynamic-highlight
+            >
+            -- isn’t that interesting?
+          </p>
+          <p>
+            So, how may we get started? Well, texts convey meanings --
+            <span class="italic">obviously</span>
+            -- so why don’t we start with some Asian Australian poetry?
+          </p>
+
+          <p>
+            We’ll be exploring
+            <dynamic-highlight class="italic"
+              >Some New Perspectives</dynamic-highlight
+            >
+            and
+            <dynamic-highlight class="italic">The Double Man</dynamic-highlight>
+            in this article.
+          </p>
+
+          <subtitle> Identity: A puzzle </subtitle>
+          <div class="rounded-md my-8">
+            <img
+              src="https://images.unsplash.com/photo-1549616014-08d94f85e697?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1936&q=80"
+              class="object-contain mx-auto max-w-2xl rounded-md"
+            />
+          </div>
+
+          <!-- OLD -->
+
           <p>
             We feel like we are gradually being disconnected from the original
             culture and our motherland shifts to become "otherlands".
