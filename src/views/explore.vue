@@ -77,49 +77,20 @@
             in this article.
           </p>
 
-          <subtitle> Identity: It's a puzzle </subtitle>
-          <div class="flex flex-row justify-center h-full relative rounded-md my-10">
+          <subtitle> Identity: It's ambiguous </subtitle>
+          <div
+            class="flex flex-row justify-center h-full relative rounded-md my-10"
+          >
             <img
               src="https://images.unsplash.com/photo-1549616014-08d94f85e697?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1936&q=80"
               class="object-contain mx-auto max-w-2xl rounded-md w-fit"
             />
           </div>
 
-          <!-- OLD -->
+          
 
-          <p>
-            We feel like we are gradually being disconnected from the original
-            culture and our motherland shifts to become "otherlands".
-            <quotes>
-              <span>"although there is han jian in chinese</span>
-              <span>there isn't ao jian in english</span>
-              <span>i write in chinese</span>
-              <span>like australians do in english</span>
-              <span>our motherlands have one thing in common,</span>
-              <span
-                ><dynamic-highlight>they've both lost M</dynamic-highlight
-                >"</span
-              >
-            </quotes>
-            Nobody wants to be disconnected from their original culture, neither
-            does Ouyang.
-            <dynamic-highlight
-              >He urges to connect back to his original culture, to create a
-              "connected disconnection" with both of his
-              identities.</dynamic-highlight
-            >
-            This is achieved through his use of wordplay, "lost a M", which
-            "Motherland" becomes "otherland", highlighting his disconnections
-            with both cultures while resonating with the "I possess neither",
-            depicting his eager to identify with both cultures.
-          </p>
-          <p>
-            This <dynamic-highlight>ambiguity of identity</dynamic-highlight> is
-            not only experienced by Yu; It's also evident in
-            <span class="italic">Some New Perspectives</span> by Ee Tiang Hong.
-            As an English-Malaysian born during the British colonial period, he
-            was used to communicate in English rather than Malay.
-          </p>
+
+
         </pcontent>
       </paragraph-content>
     </nam-page>

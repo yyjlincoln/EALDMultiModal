@@ -16,6 +16,27 @@
             identity and the themes encapsulated by the Asian Australian poems.
           </p>
           <subtitle>
+            <span>A note to assessment markers</span>
+          </subtitle>
+          <p>
+            The following video
+            <dynamic-highlight>
+              should not be directly assessed
+            </dynamic-highlight>
+            as a part of the video modal due to its length (so it does not count
+            towards the time limit). It's provided for a sense of completeness.
+            This should also be assessible as a part of the website modal.
+          </p>
+          <p>
+            We still do recommend you to watch this part even though it may not
+            be directly assessed.
+          </p>
+          <p>
+            Due to the time arrangements, the interview was conducted by Elijah
+            alone. Both Elijah and Lincoln had contributed to the interviewing
+            process.
+          </p>
+          <subtitle>
             <span>Interviewing Ms Shirley Cai</span>
           </subtitle>
           <p>
@@ -24,7 +45,7 @@
             Ms Cai explains her perspectives on identity.
           </p>
           <iframe
-            src="https://www.youtube.com/embed/buUiubsPpyM"
+            src="https://www.youtube.com/embed/E7ltdNN6PKs"
             frameborder="0"
             height="500"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -41,15 +62,6 @@
         </pcontent>
       </paragraph-content>
     </nam-page>
-    <!-- <nam-page :global_centered="true"> -->
-    <!-- <iframe
-        class="rounded-md w-screen h-screen"
-        src="https://www.youtube.com/embed/buUiubsPpyM?autoplay=1"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      ></iframe> -->
-    <!-- </nam-page> -->
   </div>
 </template>
 
@@ -69,7 +81,7 @@ export default {
   },
   data: () => ({
     transcript:
-      "E: Hi everybody, this is Elijah from EliCon. One interesting thing that we noticed is that people’s identity can be changed according to the changes in the environment. Well, is that true? Let’s do a quick interview in our school!\n(Find Mrs. Cai, shooting with time lapse)\nE: Hi Mrs. Cai, as we know, you are the most typical Asian immigrant representative around us. Where are you from? And how long have you been in Australia?\nC:(answering)\nE: As a person who has lived in Hong Kong with a Chinese background, why did you choose to immigrate to Australia?\nC:(Answering)\nE: How do you perceive yourself as your culture identity?\nC: (Answering)\nE: Do you think one’s cultural identity can be changed?\nC: (Answering)\nE: How did your identity change since you started living in Australia?\nC: (Answering)\nE: Thanks for your cooperation",
+      "Transcript is not available for this video due to its length. Please turn on automatic captions in YouTube's settings.",
   }),
 };
 </script>
