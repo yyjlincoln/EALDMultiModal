@@ -117,6 +117,7 @@
             allowfullscreen
             class="mt-10 rounded-md"
           ></iframe>
+          <p>Having issues? <a href="https://www.youtube.com/watch?v=kffi_zG2LeM" class="underline">Click here</a></p>
 
           <p class="italic">
             Youtube-generated captions are available. The video is available in 4K UHD.

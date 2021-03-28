@@ -52,6 +52,14 @@
             allowfullscreen
             class="mt-10 rounded-md"
           ></iframe>
+          <p>
+            Having issues?
+            <a
+              href="https://www.youtube.com/watch?v=E7ltdNN6PKs"
+              class="underline"
+              >Click here</a
+            >
+          </p>
           <subtitle><p>Transcript</p></subtitle>
           <div>
             <!-- Dynamically rendered -->
