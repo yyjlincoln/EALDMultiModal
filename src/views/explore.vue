@@ -19,7 +19,10 @@
 
         <pcontent>
           <quotes>
-            <p>"There are a thousand hamlets in a thousand people's eyes, so as a thousand different tales from a thousand migrants."</p>
+            <p>
+              "There are a thousand hamlets in a thousand people's eyes, so as a
+              thousand different tales from a thousand migrants."
+            </p>
           </quotes>
           <subtitle>
             <span>
@@ -117,15 +120,32 @@
             allowfullscreen
             class="mt-10 rounded-md"
           ></iframe>
-          <p>Having issues? <a href="https://www.youtube.com/watch?v=kffi_zG2LeM" class="underline">Click here</a></p>
+          <p>
+            Having issues?
+            <a
+              href="https://www.youtube.com/watch?v=kffi_zG2LeM"
+              class="underline"
+              >Click here</a
+            >
+          </p>
 
           <p class="italic">
-            Youtube-generated captions are available. The video is available in 4K UHD.
+            Youtube-generated captions are available. The video is available in
+            4K UHD.
           </p>
           <p class="italic">
             A 10% variable time range was applied to the above video.
           </p>
 
+          <subtitle>
+            <p>Transcript</p>
+          </subtitle>
+          <div>
+            <!-- Dynamically rendered -->
+            <div v-for="line in transcript" :key="line">
+              <div class="mt-5">{{ line }}</div>
+            </div>
+          </div>
         </pcontent>
       </paragraph-content>
     </nam-page>
@@ -156,7 +176,7 @@ import namText from "../components/nam-text.vue";
 import ParagraphContent from "../components/paragraph-content.vue";
 import Subtitle from "../components/subtitle.vue";
 import Quotes from "../components/quotes.vue";
-
+import axios from "axios"
 export default {
   components: {
     namPage,
@@ -170,8 +190,15 @@ export default {
   data: () => ({
     animatedText: "",
     completed: true,
+    transcript: ["Loading..."]    
   }),
-  mounted() {},
+  mounted() {
+    axios.get("https://static.nowask.me/eald_transcript.txt").then((res)=>{
+      this.transcript = res.data.split('\n')
+    }).catch(()=>{
+      this.transcript = ['There is an error while loading for the transcript. Please check your internet connection or turn on the automatic caption for the YouTube video.']
+    })
+  },
   methods: {},
 };
 </script>
