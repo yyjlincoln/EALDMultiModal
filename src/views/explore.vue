@@ -8,21 +8,27 @@
             <dynamic-highlight>together.</dynamic-highlight>
           </span>
           <span class="text-3xl mt-2 border-b pb-5"
-            >Discussing how identity is expressed in Asian Australian
-            Poetry.</span
+            ><p>
+              Discussing how identity is expressed in Asian Australian Poetry.
+            </p>
+            <p class="italic text-2xl">
+              This article is composed by Lincoln
+            </p></span
           >
         </div>
 
-        <subtitle>
-          <span>
-            Wait --
-            <dynamic-highlight
-              >What's identity in the first place?</dynamic-highlight
-            >
-          </span>
-        </subtitle>
-
         <pcontent>
+          <quotes>
+            <p>"There are a thousand hamlets in a thousand people's eyes, so as a thousand different tales from a thousand migrants."</p>
+          </quotes>
+          <subtitle>
+            <span>
+              Wait --
+              <dynamic-highlight
+                >What's identity in the first place?</dynamic-highlight
+              >
+            </span>
+          </subtitle>
           <p class="italic">
             How do you define identity? Can you categorize it? What is the shape
             of identity? When you move to another culture, are you still
@@ -67,15 +73,60 @@
             -- so why don’t we start with some Asian Australian poetry?
           </p>
 
+          <subtitle>
+            <p>
+              A trip to
+              <dynamic-highlight>Bondi</dynamic-highlight>,
+              <dynamic-highlight> Chinatown </dynamic-highlight> and
+              <dynamic-highlight> China Culture Center</dynamic-highlight>.
+            </p>
+          </subtitle>
+
           <p>
-            We’ll be exploring
+            We took a trip to Bondi Junction, Chinatown and China Culture Center
+            to explore the different aspects of identity presented in the Aisan
+            Australian poetry.
+          </p>
+          <p>
+            Throughout the trip, we discussed topics about
+            <dynamic-highlight
+              >whether identity can change and how its fragmentation due to
+              conflicts in culture</dynamic-highlight
+            >
+            as well as
+            <dynamic-highlight
+              >racism, multiculturalism and us.</dynamic-highlight
+            >
+          </p>
+
+          <p>
+            The video is presented with quotes from
             <dynamic-highlight class="italic"
               >Some New Perspectives</dynamic-highlight
             >
             and
-            <dynamic-highlight class="italic">The Double Man</dynamic-highlight>
-            in this article.
+            <dynamic-highlight class="italic">The Double Man</dynamic-highlight
+            >.
           </p>
+
+          <iframe
+            src="https://www.youtube.com/embed/kffi_zG2LeM"
+            frameborder="0"
+            height="500"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+            class="mt-10 rounded-md"
+          ></iframe>
+
+          <p class="italic">
+            A 10% variable time range is applied to the above video.
+          </p>
+
+          <img
+            src="https://images.unsplash.com/photo-1549616014-08d94f85e697?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1936&q=80"
+            class="mt-6 object-cover rounded-md w-screen left-0"
+            style="height: 600px"
+          />
 
           <subtitle> Identity: It's ambiguous </subtitle>
           <div
@@ -86,11 +137,6 @@
               class="object-contain mx-auto max-w-2xl rounded-md w-fit"
             />
           </div>
-
-          
-
-
-
         </pcontent>
       </paragraph-content>
     </nam-page>
@@ -121,8 +167,6 @@ import namText from "../components/nam-text.vue";
 import ParagraphContent from "../components/paragraph-content.vue";
 import Subtitle from "../components/subtitle.vue";
 import Quotes from "../components/quotes.vue";
-// import ealdTag from "../components/eald-tag.vue";
-// import { gsap } from "gsap";
 
 export default {
   components: {

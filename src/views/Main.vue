@@ -83,40 +83,23 @@
       </div>
     </div>
     <div id="content" class="h-fit">
-      <eald-contentblock title="Ambiguity.">
-        <div class="flex flex-col md:flex-row md:justify-between w-full relative">
-          <div class="mb-10 md:mb-0 md:pr-10 relative md:w-1/2">
-            <p>It's hard to define identity.</p>
-            <p class="mt-3">
-              Identity is multi-layered, complicated, multifaceted and
-              correlated. It does not have a definite shape, and it constantly
-              evolves as its environment changes.
-            </p>
-            <p class="mt-3 italic">
-              Just like water, identity is formless and shapless. "If you put
-              water in a cup, it becomes the cup; It you put it in a bottle, it
-              becomes the bottle"
-            </p>
-            <p class="mt-6">
-              <a
-                class="underline"
-                role="button"
-                @click="$router.push('/explore')"
-                >Join our journey now</a
-              >
-              to explore the ambiguity nature of identity.
-            </p>
-          </div>
-          <div class="flex flex-row justify-center h-full relative md:w-1/2 max-w-lg">
-            <img
-              class="rounded-md object-contain"
-              src="@/assets/fragmented.jpg"
-              alt="Image from David, livingmeanings.com"
-            />
-          </div>
-        </div>
+      <eald-contentblock title="">
+            <p>What is identity?</p>
+            <p class="mt-3">Ambiguous, formless,</p>
+            <p>like the spurts of waves,</p>
+            <p>sand on the beach.</p>
+            <p class="mt-3">Waves crashing, the mix</p>
+            <p>and fragmentation of cultural identity.</p>
+            <p>Smithereens.</p>
+            <p class="mt-3">Shapeless, changing,</p>
+            <p>like ebb and flow of the ocean,</p>
+            <p>unavoidable and variate.</p>
+            <p class="mt-3">Seagulls flying, the</p>
+            <p>diasporic nature of migrants.</p>
+            <p>Unrestfulness.</p>
+            <p class="mt-6 italic"> -- 2021, Bondi Beach.</p>
       </eald-contentblock>
-      <eald-contentblock title="Fragility.">
+      <eald-contentblock title="There are so many ">
         <p>Does water have a definite shape?</p>
         <p class="mt-3">Not really. At least Bruce Lee doesn't think so.</p>
       </eald-contentblock>
@@ -169,6 +152,7 @@
 
 <script>
 import EaldContentblock from "../components/eald-contentblock.vue";
+// import Quotes from "../components/quotes.vue"
 export default {
   data: () => ({
     getstarted: false,
@@ -185,6 +169,7 @@ export default {
   },
   components: {
     EaldContentblock,
+    // Quotes
   },
 };
 </script>
