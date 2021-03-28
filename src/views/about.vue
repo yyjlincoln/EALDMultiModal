@@ -36,14 +36,14 @@
               culture.</dynamic-highlight
             >
           </p>
-          <p>[TODO] [IMAGE]</p>
+          <!-- <p>[TODO] [IMAGE]</p> -->
           <p>
             It’s interesting to perceive their cultural identities, as a niche,
             international community in Australia. Let listen to how they think:
           </p>
-          <subtitle> A tale from Lincoln Yan </subtitle>
-          <p>[TODO] [IMAGE]</p>
-          <p class="text-red-500">TODO: This should be changed.</p>
+          <subtitle> <p> A tale from Lincoln Yan</p><p class="text-gray-600">Lincoln's journey to find his identity.</p> </subtitle>
+          <!-- <p>[TODO] [IMAGE]</p> -->
+          <!-- <p class="text-red-500">TODO: This should be changed.</p> -->
           <p>
             When I was young, the answer to the question was incredibly simple
             and funny - I’m a human being. To my young, naive self, my
@@ -80,7 +80,7 @@
             educational background?
           </p>
           <subtitle>Let's hear from Elijah Liu</subtitle>
-          <p>[TODO] [IMAGE]</p>
+          <!-- <p>[TODO] [IMAGE]</p> -->
           <p>
             I perceive China as my hometown because I was born and raised up in
             Beijing, the capital city located in North China. As we all know,

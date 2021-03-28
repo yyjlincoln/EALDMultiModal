@@ -84,30 +84,27 @@
     </div>
     <div id="content" class="h-fit">
       <eald-contentblock title="">
-            <p>What is identity?</p>
-            <p class="mt-3">Ambiguous, formless,</p>
-            <p>like the spurts of waves,</p>
-            <p>sand on the beach.</p>
-            <p class="mt-3">Waves crashing, the mix</p>
-            <p>and fragmentation of cultural identity.</p>
-            <p>Smithereens.</p>
-            <p class="mt-3">Shapeless, changing,</p>
-            <p>like ebb and flow of the ocean,</p>
-            <p>unavoidable and variate.</p>
-            <p class="mt-3">Seagulls flying, the</p>
-            <p>diasporic nature of migrants.</p>
-            <p>Unrestfulness.</p>
-            <p class="mt-6 italic"> -- 2021, Bondi Beach.</p>
+        <p>What is identity?</p>
+        <p class="mt-3">Ambiguous, formless,</p>
+        <p>like the spurts of waves,</p>
+        <p>sand on the beach.</p>
+        <p class="mt-3">Waves crashing, the mix</p>
+        <p>and fragmentation of cultural identity.</p>
+        <p>Smithereens.</p>
+        <p class="mt-3">Shapeless, changing,</p>
+        <p>like ebb and flow of the ocean,</p>
+        <p>unavoidable and variate.</p>
+        <p class="mt-3">Seagulls flying, the</p>
+        <p>diasporic nature of migrants.</p>
+        <p>Unrestfulness.</p>
+        <p class="mt-6 italic">-- 2021, Bondi Beach</p>
       </eald-contentblock>
-      <eald-contentblock title="There are so many ">
-        <p>Does water have a definite shape?</p>
-        <p class="mt-3">Not really. At least Bruce Lee doesn't think so.</p>
-      </eald-contentblock>
-      <eald-contentblock title="There is no clear boundary.">
-        <p>Identity is super complicated.</p>
-      </eald-contentblock>
-      <eald-contentblock title="It's all fragmented.">
-        <p>Identity is super complicated.</p>
+      <eald-contentblock
+        title="Beyond the paper, we went on a trip."
+      >
+        <p>
+          Join our journey to explore more!
+        </p>
       </eald-contentblock>
     </div>
     <div class="h-fit py-20 px-20">
@@ -151,6 +148,7 @@
 
 
 <script>
+// import DynamicHighlight from "../components/dynamic-highlight.vue";
 import EaldContentblock from "../components/eald-contentblock.vue";
 // import Quotes from "../components/quotes.vue"
 export default {
@@ -169,6 +167,7 @@ export default {
   },
   components: {
     EaldContentblock,
+    // DynamicHighlight,
     // Quotes
   },
 };

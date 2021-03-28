@@ -119,24 +119,12 @@
           ></iframe>
 
           <p class="italic">
-            A 10% variable time range is applied to the above video.
+            Youtube-generated captions are available. The video is available in 4K UHD.
+          </p>
+          <p class="italic">
+            A 10% variable time range was applied to the above video.
           </p>
 
-          <img
-            src="https://images.unsplash.com/photo-1549616014-08d94f85e697?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1936&q=80"
-            class="mt-6 object-cover rounded-md w-screen left-0"
-            style="height: 600px"
-          />
-
-          <subtitle> Identity: It's ambiguous </subtitle>
-          <div
-            class="flex flex-row justify-center h-full relative rounded-md my-10"
-          >
-            <img
-              src="https://images.unsplash.com/photo-1549616014-08d94f85e697?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1936&q=80"
-              class="object-contain mx-auto max-w-2xl rounded-md w-fit"
-            />
-          </div>
         </pcontent>
       </paragraph-content>
     </nam-page>
