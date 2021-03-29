@@ -99,12 +99,8 @@
         <p>Unrestfulness.</p>
         <p class="mt-6 italic">-- 2021, Bondi Beach</p>
       </eald-contentblock>
-      <eald-contentblock
-        title="Beyond the paper, we went on a trip."
-      >
-        <p>
-          Join our journey to explore more!
-        </p>
+      <eald-contentblock title="Beyond the paper, we went on a trip.">
+        <p>Join our journey to explore more!</p>
       </eald-contentblock>
     </div>
     <div class="h-fit py-20 px-20">

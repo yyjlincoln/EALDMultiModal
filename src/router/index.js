@@ -6,6 +6,7 @@ import explore from "../views/explore.vue"
 import interview from "../views/interview.vue"
 import appframe from "../views/appframe.vue"
 import about from "../views/about.vue"
+import motivation from "../views/motivation.vue"
 
 Vue.use(VueRouter)
 const routes = [
@@ -26,13 +27,21 @@ const routes = [
     }
   },
   {
+    path: '/motivation',
+    component: motivation,
+    meta: {
+      title: "Our motivation",
+      nav: 4
+    }
+  },
+  {
     path: '/about',
     component: about,
     meta: {
       title: "About us",
-      nav: 4
+      nav: 5
     }
-  }
+  },
 ]
 
 

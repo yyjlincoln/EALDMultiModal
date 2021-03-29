@@ -32,9 +32,15 @@
                 >Interview</router-link
               >
               <router-link
-                to="/about"
+                to="/motivation"
                 class="px-3"
                 :class="$route.meta.nav == 4 ? 'font-bold' : ''"
+                >Motivation</router-link
+              >
+              <router-link
+                to="/about"
+                class="px-3"
+                :class="$route.meta.nav == 5 ? 'font-bold' : ''"
                 >About us</router-link
               >
             </div>
