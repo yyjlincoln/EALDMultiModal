@@ -3,5 +3,6 @@ module.exports = {
         manifestOptions: {
             start_url: '/?pwa=true'
         }
-    }
+    },
+    publicPath: './'
 }
