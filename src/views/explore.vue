@@ -193,7 +193,7 @@ export default {
     transcript: ["Loading..."]    
   }),
   mounted() {
-    axios.get("https://static.nowask.me/eald_transcript.txt").then((res)=>{
+    axios.get("https://yyjlincoln-public-assets.nyc3.cdn.digitaloceanspaces.com/eald_transcript.txt").then((res)=>{
       this.transcript = res.data.split('\n')
     }).catch(()=>{
       this.transcript = ['There is an error while loading for the transcript. Please check your internet connection or turn on the automatic caption for the YouTube video.']
